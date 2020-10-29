@@ -4,22 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock, paper, scissors!</title>
-  <script src="script.js"></script>
-  <style>
-    body {
-      background-color: black;
-      color: white;
-      text-align: center;
-    }
-  
-    h6 {
-      padding-top: 200px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h6>I hope you enjoyed...</h6>
-  <h1>Rock, Paper, Scissors!</h1>
+  <div class="main-text">
+    <p class="computer-message"></p>
+    <p class="second-computer-message"></p>
+    <p class="score">Player: <span class="player-score">0</span> Computer: <span class="computer-score">0</span></p>
+  </div>
+  <ul>
+    <li><button class="rock">Rock</button></li>
+    <li><button class="paper">Paper</button></li>
+    <li><button class="scissors">Scissors</button></li>
+  </ul>
 </body>
 </html>
+<script src="script.js"></script>
 
